@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hi! This is a React test page!</hh1>
+
+<!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script>
+
+    // //parent class
+    // class Human{
+    //     constructor(){
+    //         this.gender = 'Male';
+    //     }
+
+    //     printMyGender(){
+    //         console.log(this.gender);
+    //     }
+    // }
+
+    // //class
+    // class Person extends Human{
+    //     constructor(){
+    //         //if our class is extending any parent class then we need to call the super function so that the
+    //         //current class calls the constructor of the parent class
+    //         super();
+    //         //properties
+    //         this.name= 'Ankit';
+    //     }
+
+    //     //functions
+    //     printMyName() {
+    //         console.log(this.name);
+    //     }
+    // }
+
+    // //declaring class
+    // const person = new Person();
+    // person.printMyName();
+    // person.printMyGender();
+
+    // //Spread in array
+
+    // const numbers = [1, 2, 3];
+    // const newNumbers = [...numbers, 4];
+    // console.log(newNumbers);
+
+
+    // //Spread in an object
+
+    // const person = {
+    //     name: "Ankit"
+    // }
+
+    // const newPerson = {
+    //     ...person,
+    //     age: 23
+    // }
+
+    // console.log(newPerson);
+
+    // //rest operator
+    // //can be used on an object to get unlimited parameters
+    // const filter = (...args) => {
+    //     // the .filter function filters the arguments passed and checked with the condition and returns if true
+    //     return args.filter(el => el===5);
+    // }
+
+    // console.log(filter(1,2,3,4,5,6));
+
+    //destructuring
+
+    const numbers = [1,2,3,4,5];
+    [number1, , ,number4] = numbers;
+
+    console.log(number1,number4);
+
+</script>
+</body>
+</html>
